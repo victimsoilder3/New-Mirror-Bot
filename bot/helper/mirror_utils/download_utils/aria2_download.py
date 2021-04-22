@@ -63,7 +63,7 @@ class AriaDownloadHelper(DownloadHelper):
     def __onDownloadStopped(self, api, gid):
         LOGGER.info(f"onDownloadStop: {gid}")
         dl = getDownloadByGid(gid)
-        if dl: dl.getListener().onDownloadError('Dead torrent!')
+        if dl: dl.getListener().onDownloadError('𝚈𝚘𝚞𝚛 𝚝𝚘𝚛𝚛𝚎𝚗𝚝 𝚑𝚊𝚟𝚎 𝚗𝚘 𝚜𝚎𝚎𝚍𝚎𝚛𝚜.🧛‍ 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝚂𝚝𝚘𝚙𝚙𝚎𝚍 !')
 
     @new_thread
     def __onDownloadError(self, api, gid):

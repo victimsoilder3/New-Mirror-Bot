@@ -158,17 +158,17 @@ sudo docker run mirrorbot
 ```
 mirror - Start Mirroring
 tar - Upload tar (zipped) file
-unzi - Extract files
+unzipmirror - Extract files
 clone - copy file/folder to drive
 watch - mirror YT-DL support link
-tarw - mirror youtube playlist link as tar
+tarwatch - mirror youtube playlist link as tar
 cancel - Cancel a task
-cnlall - Cancel all tasks
+cancelall - Cancel all tasks
 del - Delete file from Drive
 list - [query] searches files in G-Drive
 status - Get Mirror Status message
 stats - Bot Usage Stats
-hlp - Get Detailed Help
+help - Get Detailed Help
 speedtest - Check Speed of the host
 log - Bot Log [owner only]
 repo - Get the bot repo

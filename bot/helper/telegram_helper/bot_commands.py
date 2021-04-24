@@ -2,7 +2,7 @@ class _BotCommands:
     def __init__(self):
         self.StartCommand = 'start5'
         self.MirrorCommand = 'mirror5'
-        self.UnzipMirrorCommand = 'unzipmirror'
+        self.UnzipMirrorCommand = 'unzipmirror5'
         self.TarMirrorCommand = 'tarmirror5'
         self.CancelMirror = 'cancel5'
         self.CancelAllCommand = 'cancelall5'

@@ -18,7 +18,7 @@ def cancel_mirror(update, context):
         gid = args[1]
         dl = getDownloadByGid(gid)
         if not dl:
-            sendMessage(f"GID: /cancel5<code>{gid}</code> not found.", context.bot, update)
+            sendMessage(f"GID: /cancel5 <code>{gid}</code> not found.", context.bot, update)
             return
         with download_dict_lock:
             keys = list(download_dict.keys())

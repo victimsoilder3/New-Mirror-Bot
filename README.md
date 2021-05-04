@@ -2,7 +2,7 @@
 
 # owner of this repo :- [CODEX](https://github.com/spe4641)
 
-contact:- [AYUSH](https://t.me/amCodex)
+contact:- [CODEX](https://t.me/amCodex)
 
 # Slam Mirror Bot
 This is a telegram bot writen in python for mirroring files on the internet to our beloved Google Drive.
